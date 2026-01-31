@@ -9,18 +9,29 @@ citations-hover: false
 
 # Annual Review Article
 
-@annualrevarticle
+@leos-barajasStatisticsAnimalTracking2025
 
 
 # References
 
-@ref1
+@gneitingProbabilisticForecasting2014
 
-- Summary
+- This article reviews probabilistic forecasting, particularly methods for predicting full probability distributions rather than single value estimates. The authors were motivated by the need to quantify uncertainty in applications where decisions depend on risk, not just expected outcomes. The review compares different methods to making probabilistic forecasts and emphasizes the use of proper scoring rules to evaluate forecast quality. A central result is that good probabilistic forecasts must balance calibration and sharpness. This matters because poor evaluation techniques can make unreliable forecasts seem accurate, though the conclusions depend on assumptions about the underlying process of data generation.
 
-- Reliability and relationship to the topic
+- The article is published in a peer-reviewed annual review journal and written by established researchers in forecasting. It is relevant to my topic because animal tracking models often require predictions of movement, location, or behavior. 
 
 - Missing pieces
-    - thing 1
+    - How proper scoring rules are defined and used in practice
 
-    - thing 2
+    - How calibration is assessed with limited or noisy data
+    
+@wangFunctionalDataAnalysis2016
+
+-This article surveys functional data analysis, which studies data that is best represented as functions rather than vectors. The authors are motivated by modern data settings involving dense temporal or spatial measurements. The review outlines common methods such as smoothing, functional principal component analysis(PCA), and functional regression. The main takeaway is that treating observations as functions can lead to more interpretable and efficient analysis, given that strong assumptions are met. So, the usefulness of these methods is limited by data quality and sampling structure.
+
+-The article appears reliable due to its publication in a review journal and the authors’  work in functional data analysis. It relates to my topic because animal tracking data often consists of temporally ordered measurements that can be treated as smooth trajectories. 
+
+- Missing pieces
+    -The assumptions behind functional representations
+
+    -How these methods perform when data is sparsely or irregularly observed

@@ -1,1 +1,12 @@
+---
+title: "Rhetorical Analysis of *Statistics for Animal Tracking Data*"
+bibliography: references.bib
+---
 
+In *Statistics for Animal Tracking Data* [@leos-barajasStatisticsAnimalTracking2025], the authors organize and explain the main statistical approaches used to analyze animal movement data. Instead of arguing that one modeling framework is best, they focus on explaining how different frameworks answer different types of questions. The main argument of the article is that animal tracking data have specific features that require deliberately chosen statistical models.
+
+The authors structure the paper around multiple modeling frameworks, most notably step selection functions, stochastic differential equation models, and hidden Markov models. In most sections the authors describe the framework's basic idea, explain what kinds of questions can address, and then note its assumptions, limitations, and other challenges. This structure makes it easy for readers to compare each framework.
+
+One noticeable rhetorical choice is the cautious tone used throughout the article. The authors generally don't make claims that one method is better than another. Instead, they emphasize the trade-offs and explain that each framework is useful depending on the context. This makes the argument more persuasive because it presents animal movement data as being complex instead of as something that can be explained best by a specific model
+
+Overall, the article is effective because it is clearly organized and consistent in its explanations. The arguments aren't super pushy, but they are carefully constructed. By focusing on comparison, clarification, and limitations, the authors were able to present animal movement modeling as a structured and ever-changing area of statistical research.
